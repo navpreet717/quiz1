@@ -15,7 +15,7 @@ public class Quiz {
 		int infectedInstructor=0;
 		//calculate how many instructors are infected aFTER JUmping 8
 		for(int i=2;i<=days;i++){
-			 infectedInstructor=infectedInstructor+8;
+			 infectedInstructor=infectedInstructor+5;
 			
 		}
 
@@ -31,6 +31,7 @@ public class Quiz {
 		
 
 	}
+
 
 }
 
