@@ -7,15 +7,15 @@ public class Quiz {
 		// TODO Auto-generated method stub
 		//Instructors infected in number of weeks
 		Scanner keyboard=new Scanner(System.in);
-		System.out.println(" the number of weeks you want to calculate the infection rate for");
+		System.out.println(" the number of weeks you want to calculate the infection rate for peter comes");
 		int weeks=keyboard.nextInt();
 		
 		//declare variable
 		int days=weeks*7;
 		int infectedInstructor=0;
-		//calculate how many instructors are infected aFTER JUmping 8
-		for(int i=2;i<=days;i++){
-			 infectedInstructor=infectedInstructor+8;
+		//calculate how many instructors are infected aFTER peter 
+		for(int i=2;i<=days;i-=2){
+			 infectedInstructor=infectedInstructor+1;
 			
 		}
 
